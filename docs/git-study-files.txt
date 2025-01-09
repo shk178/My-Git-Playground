@@ -1,0 +1,115 @@
+# README.md
+# Git Study Project
+Git 학습을 위한 실습 프로젝트입니다.
+
+## 실습 내용
+1. 기본 명령어 (add, commit, push)
+2. 브랜치 관리
+3. 충돌 해결
+4. 리베이스와 병합
+5. Git 워크플로우
+
+## 실습 방법
+각 폴더의 README.md 파일에 있는 지시사항을 따라 실습을 진행하세요.
+
+-------------------
+
+# exercises/01-basics/README.md
+# Git 기본 명령어 실습
+
+## 실습 1: 기본 커밋
+1. work.txt 파일을 수정하세요
+2. 변경사항을 스테이징하세요
+3. 의미 있는 커밋 메시지로 커밋하세요
+
+## 실습 2: 로그 확인
+1. git log로 커밋 히스토리를 확인하세요
+2. git show로 특정 커밋의 내용을 확인하세요
+
+-------------------
+
+# exercises/01-basics/work.txt
+여기에 아무 내용이나 추가하세요.
+이 파일을 수정하면서 git add와 commit을 연습합니다.
+
+-------------------
+
+# exercises/02-branches/README.md
+# 브랜치 실습
+
+## 실습 1: 브랜치 생성 및 전환
+1. feature 브랜치를 만드세요
+2. feature 브랜치에서 feature.txt를 수정하세요
+3. main 브랜치로 돌아와서 차이점을 확인하세요
+
+## 실습 2: 브랜치 병합
+1. feature 브랜치의 변경사항을 main에 병합하세요
+2. 충돌이 발생하면 해결하세요
+
+-------------------
+
+# exercises/02-branches/feature.txt
+이 파일은 feature 브랜치에서 수정됩니다.
+브랜치 간의 차이를 확인할 수 있습니다.
+
+-------------------
+
+# exercises/03-conflicts/README.md
+# 충돌 해결 실습
+
+## 실습 1: 충돌 만들기
+1. main 브랜치에서 conflict.txt를 수정하세요
+2. feature 브랜치를 만들어서 같은 파일을 다르게 수정하세요
+3. 병합 시 발생하는 충돌을 해결하세요
+
+-------------------
+
+# exercises/03-conflicts/conflict.txt
+이 부분을 두 브랜치에서 다르게 수정하세요.
+충돌이 발생하면 어떻게 해결하는지 배웁니다.
+
+-------------------
+
+# exercises/04-rebase/README.md
+# 리베이스 실습
+
+## 실습 1: 리베이스 기본
+1. feature 브랜치를 만드세요
+2. main 브랜치에 새로운 커밋을 추가하세요
+3. feature 브랜치를 main에 리베이스하세요
+
+## 실습 2: 대화식 리베이스
+1. 최근 3개의 커밋을 대화식 리베이스로 수정하세요
+
+-------------------
+
+# exercises/05-workflow/README.md
+# Git 워크플로우 실습
+
+## 실습 1: 깃플로우
+1. develop 브랜치 생성
+2. feature 브랜치에서 기능 개발
+3. develop에 병합
+4. release 브랜치 생성
+5. main에 병합
+
+## 실습 2: PR 시나리오
+1. fork 생성
+2. 변경사항 작성
+3. PR 생성
+4. 리뷰 및 병합
+
+-------------------
+
+# .gitignore
+# 실습 중 생성되는 임시 파일들
+*.tmp
+*.temp
+.DS_Store
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 로그 파일
+*.log
